@@ -1,0 +1,35 @@
+.w-100 {
+  width: auto;
+  height: 100vh; 
+}
+
+body{
+  margin: 0 30%;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+ background-color: grey;
+}
+
+
+
+@media (max-device-width: 780px) {
+  body{
+    margin: 0;
+  }
+  .w-100 {
+    width: 101%!important;
+    height: 100vh;
+ 
+  }
+  
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 7rem;
+    height: 5rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+  }
+}
+
